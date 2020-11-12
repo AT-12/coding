@@ -6,21 +6,22 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * A.
+ * Highest and Lowest utility class.
  */
 public final class HighestAndLowest {
 
     /**
-     * A.
+     * Private constructor for utility class.
      */
     private HighestAndLowest() {
 
     }
 
     /**
-     * A.
-     * @param input input.
-     * @return result
+     * Calculates highest and lowest numbers.
+     *
+     * @param input string numbers input.
+     * @return highest and lowest number concatenated.
      */
     public static String calculate(final String input) {
         List<String> numbersAsChars = Arrays.asList(input.split(" "));

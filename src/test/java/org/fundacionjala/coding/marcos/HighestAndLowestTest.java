@@ -4,12 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
- * A.
+ * Defines Highest and Lowest tests.
  */
 public class HighestAndLowestTest {
 
     /**
-     * A.
+     * Basic input test.
      */
     @Test
     public void basicInputTest() {
