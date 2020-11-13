@@ -1,7 +1,8 @@
-    package org.fundacionjala.coding.samuel;
+package org.fundacionjala.coding.samuel;
 
 import java.util.Arrays;
 import java.util.List;
+
 /**
  * SpinWords utility class.
  */
