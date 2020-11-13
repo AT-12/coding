@@ -27,7 +27,7 @@ public class StopGninnipsMySdrowTest {
     }
 
     /**
-     * Test a Empty String
+     *Test a Empty String.
      */
     @Test
     public void wordsEmpty() {
@@ -38,7 +38,7 @@ public class StopGninnipsMySdrowTest {
     }
 
     /**
-     * Test a String with only numbers
+     * Test a String with only numbers.
      */
     @Test
     public void wordsThatHaveOnlyNumbers() {
@@ -49,7 +49,7 @@ public class StopGninnipsMySdrowTest {
     }
 
     /**
-     * Test a String with only special Characters
+     *Test a String with only special Characters.
      */
     @Test
     public void wordsOnlyWithSpecialCharacters() {
