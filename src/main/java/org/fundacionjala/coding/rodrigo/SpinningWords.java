@@ -21,10 +21,10 @@ public final class SpinningWords {
     }
 
     /**
-     * Spin the words with more letters than the limit
+     * Spin the words with more letters than the limit.
      *
      * @param input string message input.
-     * @return message with the spin words if there is
+     * @return message with the spin words if possible.
      */
     public static String spinningMessage(final String input) {
         List<String> message = Arrays.asList(input.split(" "));
