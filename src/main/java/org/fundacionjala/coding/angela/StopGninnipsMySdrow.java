@@ -21,7 +21,7 @@ public final class StopGninnipsMySdrow {
     public static String invert(final String input) {
         List<String> lettersResult = new ArrayList<>();
         List<String> letters = Arrays.asList(input.split(" "));
-        letters.stream().forEach((string) -> {
+        letters.stream().forEach(string -> {
             if (string.length() >= MIN_CARACTERS) {
                 lettersResult.add(getInvertedWord(string));
             } else {
