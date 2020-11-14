@@ -10,7 +10,7 @@ public final class SpinWords {
     /**
      * Restriction of the problem.
      */
-    static final int RESTRICTION_WORD_SIZE = 5;
+    static final int RESTRICTION_WORD_SIZE = 4;
 
     /**
      * Private constructor for utility class.
