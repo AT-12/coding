@@ -6,9 +6,7 @@ import org.testng.annotations.Test;
 /**
  * Defines spinning words tests.
  */
-public class SpinningMyWordsTest
-{
-    private SpinningMyWords SpinningWords;
+public class SpinningMyWordsTest {
 
     /**
      * Basic input test.
