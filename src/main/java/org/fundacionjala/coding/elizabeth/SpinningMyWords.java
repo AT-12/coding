@@ -26,7 +26,7 @@ public class SpinningMyWords {
      * @return string, but with all five or more letter words reversed .
      */
 
-    public String spinningWords(final String spinWords) {
+    public String spinningMyWords(final String spinWords) {
         List<String> wordsList = Arrays.asList(spinWords.split(" "));
         for (int i = 0; i < wordsList.size(); i++) {
             if (wordsList.get(i).length() >= LETTERS) {

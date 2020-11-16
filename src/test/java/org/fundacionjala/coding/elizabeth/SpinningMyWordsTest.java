@@ -12,12 +12,12 @@ public class SpinningMyWordsTest {
      * Basic input test.
      */
     @Test
-    public void basicInputTest() {
+    public void spinningMyWordsTest() {
         SpinningMyWords sp = new SpinningMyWords();
         String input = "Hey fellow warriors";
 
         String expectedResult = "Hey wollef sroirraw";
-        String actualResult = sp.spinningWords(input);
+        String actualResult = sp.spinningMyWords(input);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
