@@ -20,8 +20,8 @@ public final class Isogram {
         char[] phraseSort = phraseLower.toCharArray();
         Arrays.sort(phraseSort);
 
-        for (int i = 0; i < phraseSort.length - 1; i++) {
-            if (phraseSort[i] == phraseSort[i + 1]) {
+        for (int position = 0; position < phraseSort.length - 1; position++) {
+            if (phraseSort[position] == phraseSort[position + 1]) {
                 return false;
             }
         }
