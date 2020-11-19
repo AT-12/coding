@@ -1,4 +1,4 @@
-package org.fundacionjala.coding.angela;
+package org.fundacionjala.coding.angela.task1;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 public class StopGninnipsMySdrowTest {

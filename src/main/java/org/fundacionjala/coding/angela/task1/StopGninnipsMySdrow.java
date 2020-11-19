@@ -1,4 +1,4 @@
-package org.fundacionjala.coding.angela;
+package org.fundacionjala.coding.angela.task1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
