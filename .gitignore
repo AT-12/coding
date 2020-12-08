@@ -4,3 +4,7 @@
 /out/
 *.iml
 /java/
+.classpath
+.project
+.settings
+/bin/
